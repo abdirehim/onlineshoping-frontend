@@ -1,0 +1,147 @@
+.shop{
+    display: flex;
+   align-items: center; 
+   justify-content: flex-start;
+   margin:30px 50px;
+    padding: 32px;
+    /* position: relative; */
+
+
+
+}
+.img{
+    /* display: flex;
+    background-color: red;
+    justify-content:flex-end;
+    flex: 1; */
+    margin: 0px 0px 160px 40px;
+    /* border-bottom: #686e6e solid 1px; */
+    
+}
+ /* h3{
+    font-size: large;
+    font-weight: bold;
+    border-bottom: #088178 solid 1px;
+} */
+input{
+    padding: 8px 180px 8px 5px;
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+   
+}
+h2{
+    border-bottom: #088178 solid 1px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: larger;
+}
+/* input:active{
+    text-decoration: none;
+    box-shadow: none;
+} */
+.ord{
+    /* position:absolute;
+    left: 120px; */
+    /* border-right: #088178 1px solid; */
+}
+select{
+    padding: 8px 210px 8px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+textarea{
+    padding:8px 480px 62px 5px;  
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+}
+button{
+    padding: 16px 32px;
+    border-radius: 30px;
+    background-color: #088178;
+    color: white;
+    font-size: large;
+}
+button:hover{
+    background-color: black;
+    
+}
+@media (max-width:799px){
+    .shop{
+        display: flex;
+        flex-direction: column;
+       /* align-items: center;  */
+       /* justify-content: flex-start; */
+       /* margin:30px 50px; */
+        padding: 0px 50px;
+
+
+}
+.s{
+    display: flex;
+}
+input{
+    padding: 8px 130px 8px 5px;
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+   
+}
+textarea{
+    padding:8px 380px 62px 5px;  
+    /* margin: 10px 20px 10px 0px; */
+    border-radius: 10px;
+}
+.img{
+   
+    
+    
+    margin: 20px 0px 160px 0px;
+    
+    /* border-bottom: #686e6e solid 1px; */
+    
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+@media (max-width:477px){
+
+ .shop{
+        display: flex;
+        flex-direction: column;
+       /* align-items: center;  */
+       /* justify-content: flex-start; */
+       /* margin:30px 50px; */
+        padding: 0  0 10px 30px;
+
+
+}
+.s{
+    display: inline;
+}
+textarea{
+    padding:8px 120px 40px 5px;  
+    /* margin: 10px 20px 10px 0px; */
+    border-radius: 10px;
+    
+}
+.img{
+   
+    
+    
+    margin: 20px 0px 160px 0px;
+    
+    /* border-bottom: #686e6e solid 1px; */
+    
+}
+input{
+    padding: 8px 180px 8px 5px;
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+   
+}
+}
+}

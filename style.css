@@ -32,6 +32,7 @@ p{
 
 .section-p1{
     padding: 40px 80px;
+    background-color:#e3e6f3;;
 }
 .section-m1{
     margin: 40px 0;
@@ -97,11 +98,11 @@ width: 100%;
      
 }
 #navbar li a:hover,
-#navbar li a.active{
+#navbar li a:active{
     color: #088817;
 
 }
-#navbar li a.active::after,
+#navbar li a:active::after,
 #navbar li a:hover::after{
     content: "";
     width: 30%;

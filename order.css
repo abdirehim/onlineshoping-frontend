@@ -1,0 +1,151 @@
+.shop{
+    display: flex;
+   align-items: center; 
+   justify-content: flex-start;
+   margin:30px 50px;
+    padding: 32px;
+    /* position: relative; */
+
+
+
+}
+.img{
+    display: flex;
+    /* background-color: red; */
+    justify-content:flex-end;
+    flex: 1;
+}
+input{
+    padding: 8px 180px 8px 5px;
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+   
+}
+/* input:active{
+    text-decoration: none;
+    box-shadow: none;
+} */
+.ord{
+    /* position:absolute; */
+    /* left: 120px; */
+    /* display: flex; */
+    
+}
+.abc{
+    display: flex;
+}
+select{
+    padding: 8px 210px 8px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+textarea{
+    padding:8px 480px 62px 5px;  
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+}
+button{
+    padding: 16px 32px;
+    border-radius: 30px;
+    background-color: #088178;
+    color: white;
+    font-size: large;
+}
+button:hover{
+    background-color: black;
+    
+}
+@media (max-width:799px){
+    .img{
+        
+         display: none;
+        /* background-color: red; */
+        /* justify-content:flex-end;
+        flex: 1; */
+        /* position: absolute; */
+}
+.shop{
+    display: flex;
+   align-items: center; 
+   justify-content: flex-start;
+   margin:20px 30px;
+    padding: 28px;
+    /* position: relative; */
+
+
+
+}
+input{
+    padding: 8px 150px 8px 5px;
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+   
+}
+select{
+    padding: 8px 180px 8px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+textarea{
+    padding:8px 420px 62px 5px;  
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+@media (max-width:477px){
+    /* .ord{
+       display:flex;
+       flex-direction: column;
+        
+    } */
+    .shop{
+    display: flex; 
+    align-items: center; 
+   justify-content: flex-start;
+   margin:20px 20px;
+    padding: 28px;
+    
+    /* position: relative; */
+
+
+
+}
+.input{
+    /* display: flex;
+    flex-direction: column; */
+}
+.abc{
+    display: inline;
+
+}
+select{
+    padding: 8px 180px 8px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+textarea{
+    padding:8px 100px 62px 5px;  
+    margin: 10px 20px 10px 0px;
+    border-radius: 10px;
+}
+button{
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: #088178;
+    color: white;
+    font-size: large;
+}
+
+
+}
+        
+    } 
