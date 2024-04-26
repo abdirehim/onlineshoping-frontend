@@ -123,8 +123,8 @@ textarea{
     display: inline;
 }
 textarea{
-    padding:8px 120px 40px 5px;  
-    /* margin: 10px 20px 10px 0px; */
+    padding:8px 100px 40px 5px;  
+    margin: 0 0 0 10px;
     border-radius: 10px;
     
 }
@@ -138,8 +138,8 @@ textarea{
     
 }
 input{
-    padding: 8px 180px 8px 5px;
-    margin: 10px 20px 10px 0px;
+    padding: 8px 120px 8px 5px;
+    margin: 10px 20px 10px 10px;
     border-radius: 10px;
    
 }
